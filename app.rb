@@ -33,9 +33,6 @@ p black_rook_left.can_move?(2, 5) == "no"
 p white_rook_right.can_move?(3, 5) == "no"
 p white_rook_right.can_move?(5, 6) == "no"
 
-# # puts ""
-
-
 
 # # # /---------------------------------------------------------
 # # #  ------------------------- KING --------------------------
@@ -92,13 +89,10 @@ p black_queen.can_move?(4, 2) == "yes"
 # # #  ------------------------- Pawn ----------------------------
 # # #  ---------------------------------------------------------/
 
-black_pawn = Pawn.new(1, 2, "black")
-
-black_pawn = Pawn.new(1, 2, "black")
-
-p black_pawn.can_move?(1, 3) == "yes"
-
-p black_pawn.can_move?(1, 7) == "yes"
+black_pawn = Pawn.new(1, 7, "black")
+white_pawn = Pawn.new(1, 2, "white")
+p black_pawn.can_move?(1, 5) == "yes"
+p white_pawn.can_move?(1, 3) == "yes"
 
 
  
