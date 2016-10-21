@@ -6,7 +6,7 @@ require_relative("lib/pieces/knight.rb")
 require_relative("lib/pieces/bishop.rb")
 require_relative("lib/pieces/queen.rb")
 require_relative("lib/pieces/pawn.rb")
-
+require_relative("lib/pieces/board.rb")
 
 # /---------------------------------------------------------
 #  ------------------------- ROOK --------------------------
@@ -96,10 +96,28 @@ p white_pawn.can_move?(1, 1) == "no"
 
 
  
-
-
-
-
-
+myboard = Board.new
+myboard.add_piece(black_knight_left)
+myboard.add_piece(black_knight_left)
+myboard.add_piece(black_knight_left)
+myboard.add_piece(black_knight_left)
+myboard.add_piece(black_knight_left)
+myboard.add_piece(black_knight_left)
+myboard.add_piece(black_knight_left)
+myboard.add_piece(black_knight_left)
+myboard.add_piece(black_knight_left)
+myboard.add_piece(black_knight_left)
+myboard.add_piece(black_knight_left)
+myboard.add_piece(black_knight_left)
+myboard.add_piece(black_knight_left)
+myboard.add_piece(black_knight_left)
+myboard.add_piece(black_knight_left)
+myboard.add_piece(black_knight_left)
+myboard.add_piece(black_knight_left)
+myboard.add_piece(black_knight_left)
+myboard.add_piece(black_knight_left)
+myboard.add_piece(black_knight_left)
+myboard.add_piece(black_knight_left)
+myboard.add_piece(black_knight_left)
 
 

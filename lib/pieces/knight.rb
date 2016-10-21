@@ -1,5 +1,6 @@
 class Knight
-	def initialize (x, y, color)
+	attr_accessor(:x, :y, :color)
+    def initialize (x, y, color)
 		@x = x
 		@y = y
 		@color = color
