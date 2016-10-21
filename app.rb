@@ -92,7 +92,7 @@ p black_queen.can_move?(4, 2) == "yes"
 black_pawn = Pawn.new(1, 7, "black")
 white_pawn = Pawn.new(1, 2, "white")
 p black_pawn.can_move?(1, 5) == "yes"
-p white_pawn.can_move?(1, 3) == "yes"
+p white_pawn.can_move?(1, 1) == "no"
 
 
  

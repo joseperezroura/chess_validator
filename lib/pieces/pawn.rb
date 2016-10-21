@@ -10,13 +10,14 @@ class Pawn
         if @color == "black"
            if (dest_y - @y ==  -2 || dest_y - @y ==  -1) && (dest_x - @x == 0) 
                 "yes"
+                else "no"
            end
         elsif @color == "white"
             if (dest_y - @y ==  2 || dest_y - @y ==  1) && (dest_x - @x == 0) 
                 "yes"
+                else "no"
             end        
-        else
-        "no"                
+                        
         end
     end                    
 end
