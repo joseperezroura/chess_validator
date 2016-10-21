@@ -6,33 +6,17 @@ class Pawn
         @num_moves = 0
     end
     
-    def can_move?(dest_x, dest_y)           
-        
+    def can_move?(dest_x, dest_y)            
         if @color == "black"
-
            if (dest_y - @y ==  -2 || dest_y - @y ==  -1) && (dest_x - @x == 0) 
-            
                 "yes"
-
            end
-        
         elsif @color == "white"
-        
             if (dest_y - @y ==  2 || dest_y - @y ==  1) && (dest_x - @x == 0) 
-            
                 "yes"
-
-           end
-
-        
+            end        
         else
-
-        "no"
-                
+        "no"                
         end
-    
-
-
-    end        
-            
+    end                    
 end
