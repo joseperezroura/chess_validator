@@ -119,7 +119,7 @@ white_pawn_eight = Pawn.new(8, 2, "white")
 
 
 
-white_pawn = Pawn.new(1, 2, "white")
+# white_pawn = Pawn.new(1, 2, "white")
 # p black_pawn.can_move?(1, 5) == "yes"
 # p white_pawn.can_move?(1, 1) == "no"
 
@@ -127,26 +127,10 @@ white_pawn = Pawn.new(1, 2, "white")
  
 myboard = Board.new
 myboard.add_piece(black_knight_left)
-myboard.add_piece(black_knight_left)
-myboard.add_piece(black_knight_left)
-myboard.add_piece(black_knight_left)
-myboard.add_piece(black_knight_left)
-myboard.add_piece(black_knight_left)
-myboard.add_piece(black_knight_left)
-myboard.add_piece(black_knight_left)
-myboard.add_piece(black_knight_left)
-myboard.add_piece(black_knight_left)
-myboard.add_piece(black_knight_left)
-myboard.add_piece(black_knight_left)
-myboard.add_piece(black_knight_left)
-myboard.add_piece(black_knight_left)
-myboard.add_piece(black_knight_left)
-myboard.add_piece(black_knight_left)
-myboard.add_piece(black_knight_left)
-myboard.add_piece(black_knight_left)
-myboard.add_piece(black_knight_left)
-myboard.add_piece(black_knight_left)
-myboard.add_piece(black_knight_left)
-myboard.add_piece(black_knight_left)
+myboard.add_piece(black_knight_right)
+
+p black_knight_left.can_move?(4, 2) == "no"
+
+
 
 
